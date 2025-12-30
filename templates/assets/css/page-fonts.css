@@ -1,0 +1,17 @@
+/* Per-page font loader for Ara Jozoor */
+
+@font-face {
+  font-family: 'AraJozoorLocal';
+  src: url('../fonts/Ara Jozoor Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Apply when the page opts in by adding 'font-arajozoor' to the <body> class */
+body.font-arajozoor {
+  font-family: 'AraJozoorLocal', system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* Optional helper class if you want to apply to a container instead */
+.font-arajozoor { font-family: inherit; }
